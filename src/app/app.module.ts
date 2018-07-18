@@ -2,22 +2,27 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
+import { Geolocation } from '@ionic-native/geolocation';
+import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { AboutPage } from '../pages/about/about';
+import { SearchPage } from '../pages/search/search';
 import { ContactPage } from '../pages/contact/contact';
-import { HomePage } from '../pages/home/home';
+import { MapPage } from '../pages/map/map';
 import { TabsPage } from '../pages/tabs/tabs';
+import { MasinfoPage } from '../pages/masinfo/masinfo';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
+
 
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
+    SearchPage,
     ContactPage,
-    HomePage,
-    TabsPage
+    MapPage,
+    TabsPage,
+    MasinfoPage
   ],
   imports: [
     BrowserModule,
@@ -26,14 +31,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
+    SearchPage,
     ContactPage,
-    HomePage,
-    TabsPage
+    MapPage,
+    TabsPage,
+    MasinfoPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
+    Geolocation,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
