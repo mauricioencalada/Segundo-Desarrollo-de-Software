@@ -13,58 +13,53 @@ export class SearchPage {
     this.miLista = [
       {
         'title': 'Parque Metropolitano Equinoccial',
-        'imgs': '',
+        'imgs': 'assets/img/par1.png',
         'ubicacion': 'ubicacion ',
         
       },
       {
         'title': 'Parque Arqueológico Rumipamba',
-        'imgs': '',
+        'imgs': 'C:/Users/Usuario/profin/src/assets/imgs/rumipamba.jpg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Parque La Carolina',
-        'imgs': '',
+        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\carolina.jpg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Entrada Parque Metropolitano Batan Alto',
-        'imgs': 'javascript',
+        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\batan.jpg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Parque Metropolitano de Quito',
-        'imgs': 'sass',
+        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\metro.jpeg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Parque Guápulo',
-        'imgs': 'nodejs',
+        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\cascungo.jpg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Parque Cuscungo',
-        'imgs': 'python',
+        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\cascungo.jpg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Parque Metropolitano Chilibulo',
-        'imgs': 'markdown',
+        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\chili.jpg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Parque Metropolitano La Armenia',
-        'imgs': 'tux',
+        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\arme.jpg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Parque Las Cuadras',
-        'imgs': 'tux',
-        'ubicacion': 'ubicacion '
-      },
-      {
-        'title': 'Parque Metropolitano La Armenia',
-        'imgs': 'tux',
+        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\cuadras.jpg',
         'ubicacion': 'ubicacion '
       },
     ]
