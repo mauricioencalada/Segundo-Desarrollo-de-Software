@@ -13,53 +13,53 @@ export class SearchPage {
     this.miLista = [
       {
         'title': 'Parque Metropolitano Equinoccial',
-        'imgs': 'assets/img/par1.png',
+        'imgs': 'assets/imgs/par1.png',
         'ubicacion': 'ubicacion ',
         
       },
       {
         'title': 'Parque Arqueológico Rumipamba',
-        'imgs': 'C:/Users/Usuario/profin/src/assets/imgs/rumipamba.jpg',
+        'imgs': 'assets/imgs/rumipamba.jpg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Parque La Carolina',
-        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\carolina.jpg',
+        'imgs': 'assets/imgs/carolina.jpg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Entrada Parque Metropolitano Batan Alto',
-        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\batan.jpg',
+        'imgs': 'assets/imgs/batan.jpg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Parque Metropolitano de Quito',
-        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\metro.jpeg',
+        'imgs': 'assets/imgs/metro.jpeg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Parque Guápulo',
-        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\cascungo.jpg',
+        'imgs': 'assets/imgs/cascungo.jpg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Parque Cuscungo',
-        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\cascungo.jpg',
+        'imgs': 'assets/imgs/cascungo.jpg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Parque Metropolitano Chilibulo',
-        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\chili.jpg',
+        'imgs': 'assets/imgs/chili.jpg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Parque Metropolitano La Armenia',
-        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\arme.jpg',
+        'imgs': 'assets/imgs/arme.jpg',
         'ubicacion': 'ubicacion '
       },
       {
         'title': 'Parque Las Cuadras',
-        'imgs': 'C:\Users\Usuario\profin\src\assets\imgs\cuadras.jpg',
+        'imgs': 'assets/imgs/cuadras.jpg',
         'ubicacion': 'ubicacion '
       },
     ]
